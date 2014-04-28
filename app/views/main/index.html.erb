@@ -1,0 +1,11 @@
+<div class="container" ng-controller="IndexCtrl">
+  <h1 class="text-center">Filmcentralen</h1>
+	<div id="loginForm" class="text-center">
+		<form name="login" ng-controller="IndexCtrl" class="login-form">
+		Email: <input type="email" ng-model="inEmail" required>
+		Password: <input type="text" ng-model="inPassword" ng-pattern="word" required ng-trim="false">
+		<button ng-click="submit()"> Login</button>
+		</form>
+	</div>
+</div>
+
